@@ -1,0 +1,212 @@
+import { DomainListing, MarketStats } from './types'
+
+export const mockDomains: DomainListing[] = [
+  {
+    id: '1',
+    domain: 'openapi',
+    extension: '.agi',
+    fairMarketValue: 125000,
+    floorPrice: 89000,
+    investmentSignal: 'BUY',
+    confidenceScore: 94,
+    semanticScore: 98,
+    liquidityScore: 87,
+    utilityScore: 92,
+    lastSalePrice: 45000,
+    daysListed: 12,
+    category: 'AI Infrastructure'
+  },
+  {
+    id: '2',
+    domain: 'apiagent',
+    extension: '.agi',
+    fairMarketValue: 98500,
+    floorPrice: 78000,
+    investmentSignal: 'BUY',
+    confidenceScore: 91,
+    semanticScore: 95,
+    liquidityScore: 82,
+    utilityScore: 89,
+    lastSalePrice: 32000,
+    daysListed: 8,
+    category: 'AI Infrastructure'
+  },
+  {
+    id: '3',
+    domain: 'healthtech',
+    extension: '.agent',
+    fairMarketValue: 67000,
+    floorPrice: 52000,
+    investmentSignal: 'BUY',
+    confidenceScore: 88,
+    semanticScore: 92,
+    liquidityScore: 78,
+    utilityScore: 85,
+    lastSalePrice: null,
+    daysListed: 21,
+    category: 'Healthcare'
+  },
+  {
+    id: '4',
+    domain: 'quantumfinance',
+    extension: '.agent',
+    fairMarketValue: 145000,
+    floorPrice: 134000,
+    investmentSignal: 'HOLD',
+    confidenceScore: 76,
+    semanticScore: 89,
+    liquidityScore: 71,
+    utilityScore: 82,
+    lastSalePrice: 128000,
+    daysListed: 3,
+    category: 'Finance'
+  },
+  {
+    id: '5',
+    domain: 'metaverse',
+    extension: '.wallet',
+    fairMarketValue: 42000,
+    floorPrice: 38500,
+    investmentSignal: 'HOLD',
+    confidenceScore: 72,
+    semanticScore: 78,
+    liquidityScore: 85,
+    utilityScore: 76,
+    lastSalePrice: 35000,
+    daysListed: 45,
+    category: 'Web3'
+  },
+  {
+    id: '6',
+    domain: 'aiassistant',
+    extension: '.agi',
+    fairMarketValue: 89000,
+    floorPrice: 72000,
+    investmentSignal: 'BUY',
+    confidenceScore: 89,
+    semanticScore: 91,
+    liquidityScore: 84,
+    utilityScore: 88,
+    lastSalePrice: 55000,
+    daysListed: 6,
+    category: 'AI Infrastructure'
+  },
+  {
+    id: '7',
+    domain: 'tradingbot',
+    extension: '.agent',
+    fairMarketValue: 78000,
+    floorPrice: 85000,
+    investmentSignal: 'SELL',
+    confidenceScore: 65,
+    semanticScore: 82,
+    liquidityScore: 58,
+    utilityScore: 74,
+    lastSalePrice: 92000,
+    daysListed: 67,
+    category: 'Finance'
+  },
+  {
+    id: '8',
+    domain: 'defi',
+    extension: '.dao',
+    fairMarketValue: 256000,
+    floorPrice: 198000,
+    investmentSignal: 'BUY',
+    confidenceScore: 96,
+    semanticScore: 99,
+    liquidityScore: 94,
+    utilityScore: 97,
+    lastSalePrice: 150000,
+    daysListed: 2,
+    category: 'Finance'
+  },
+  {
+    id: '9',
+    domain: 'smartcontract',
+    extension: '.crypto',
+    fairMarketValue: 54000,
+    floorPrice: 48000,
+    investmentSignal: 'HOLD',
+    confidenceScore: 74,
+    semanticScore: 85,
+    liquidityScore: 69,
+    utilityScore: 77,
+    lastSalePrice: 41000,
+    daysListed: 34,
+    category: 'Web3'
+  },
+  {
+    id: '10',
+    domain: 'nftmarket',
+    extension: '.nft',
+    fairMarketValue: 35000,
+    floorPrice: 42000,
+    investmentSignal: 'SELL',
+    confidenceScore: 58,
+    semanticScore: 72,
+    liquidityScore: 45,
+    utilityScore: 61,
+    lastSalePrice: 55000,
+    daysListed: 89,
+    category: 'Web3'
+  },
+  {
+    id: '11',
+    domain: 'cloudai',
+    extension: '.agent',
+    fairMarketValue: 112000,
+    floorPrice: 95000,
+    investmentSignal: 'BUY',
+    confidenceScore: 92,
+    semanticScore: 94,
+    liquidityScore: 88,
+    utilityScore: 91,
+    lastSalePrice: 78000,
+    daysListed: 5,
+    category: 'AI Infrastructure'
+  },
+  {
+    id: '12',
+    domain: 'governance',
+    extension: '.dao',
+    fairMarketValue: 167000,
+    floorPrice: 145000,
+    investmentSignal: 'BUY',
+    confidenceScore: 87,
+    semanticScore: 93,
+    liquidityScore: 81,
+    utilityScore: 86,
+    lastSalePrice: 120000,
+    daysListed: 14,
+    category: 'Web3'
+  }
+]
+
+export const mockMarketStats: MarketStats = {
+  totalListings: 12847,
+  avgValuation: 87500,
+  buySignals: 4231,
+  marketVolatilityIndex: 67.4
+}
+
+export const categories = [
+  'All Categories',
+  'AI Infrastructure',
+  'Finance',
+  'Healthcare',
+  'Web3',
+  'Gaming',
+  'Social'
+]
+
+export const extensions = [
+  'All Extensions',
+  '.agent',
+  '.agi',
+  '.crypto',
+  '.wallet',
+  '.nft',
+  '.dao',
+  '.x'
+]
